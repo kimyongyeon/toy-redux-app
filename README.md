@@ -1,3 +1,25 @@
+# redux vs mobx
+
+## Redux
+
+![redux](https://t1.daumcdn.net/cfile/tistory/99C5803D5C8F29241F)
+
+## Mobx
+
+![mobx](https://t1.daumcdn.net/cfile/tistory/996406425C91B84731)
+
+## Redux
+
+- 사용하는 개발자들, 회사들이 많음
+- 개발도구, 라이브러리가 더 많음
+- magic, 문법적 설탕이 적음
+
+## Mobx
+
+- 처리속도가 빠름
+- 유연함
+- 코드가 적음, 러닝커브가 낮음
+
 # react-router
 
 \$ yarn add react-router-dom  
