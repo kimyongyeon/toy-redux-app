@@ -28,6 +28,12 @@ const mapStateToProps = ({ counter }) => ({
    number: counter.number,
 });
 
+// const mapDispatchToProps = dispatch => ({
+//    increment: () => dispatch(increment()),
+//    decrement: () => dispatch(decrement()),
+// });
+// const mapDispatchToProps = dispatch =>
+//    bindActionCreators({ increment, decrement }, dispatch); // **** (2) bindActionCreators 사용.
 // **** 함수가 아닌 객체 설정시 자동 bindActionCreators 됨
 const mapDispatchToProps = { increment, decrement };
 
